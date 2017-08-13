@@ -1,5 +1,5 @@
-var token = 'www.index.html/token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoiQWFzaGlzaCBBZ2dhcndhbCIsIk1vYmlsZSBObzoiOjg4MDAyMzI4MzMsIkdyYWR1YXRpb24iOiJCQ0EifQ.wluZBI4GzjPdV7uk722R3AYW3s4zm8dAqm4oQThMITs';
-try{
+var token =window.location.href;
+    try{
 var obj=parseJwt(token);
 document.write("correct");
 
